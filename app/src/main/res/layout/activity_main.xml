@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raphaeltrembleau.appli_cours.MainActivity"
+    android:background="#5d9bd5">
+
+    <EditText
+        android:id="@+id/editTel"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="#fff"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail"
+        android:layout_marginTop="17dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="#fff"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNom"
+        android:layout_marginTop="17dp"/>
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="#fff"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPrenom"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/editPrenom"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:text="S'inscrire"
+        android:layout_marginLeft="8dp"
+        android:background="#ea7d3c"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTel"
+        app:layout_constraintHorizontal_bias="0.965" />
+
+    <TextView
+        android:id="@+id/txvPrenom"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Prénom :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/editPrenom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+    <TextView
+        android:id="@+id/txvNom"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="17dp"
+        android:text="Nom :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/editPrenom"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/txvPrenom" />
+    <TextView
+        android:id="@+id/txvMail"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="17dp"
+        android:text="Mail :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/editPrenom"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/txvNom" />
+    <TextView
+        android:id="@+id/txvTel"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="17dp"
+        android:text="Tel :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/editPrenom"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/txvMail" />
+
+</android.support.constraint.ConstraintLayout>

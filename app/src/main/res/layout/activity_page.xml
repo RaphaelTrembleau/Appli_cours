@@ -17,6 +17,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
         app:layout_constraintHorizontal_bias="0.0"
         tools:layout_editor_absoluteX="4dp" />
 
